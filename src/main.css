@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+:root {
+  --red: hsl(14, 86%, 42%);
+  --red-hover: hsl(14, 85%, 34%);
+  --green: hsl(159, 69%, 38%);
+
+  --rose-extra-light: hsl(20, 50%, 98%);
+  --rose-light: hsl(13, 31%, 94%);
+  --rose-extra-medium: hsl(14, 25%, 72%);
+  --rose-medium: hsl(7, 20%, 60%);
+  --rose-dark: hsl(12, 20%, 44%);
+  --rose-extra-dark: hsl(14, 65%, 9%);
+}
+
+body {
+  background-color: var(--rose-extra-light);
+}
+
+.description {
+  font-size: 16px;
+  color: var(--rose-medium);
+  font-weight: 500;
+}
+
+.description-price {
+  color: var(--rose-dark);
+  font-weight: 600;
+}
+
+.title {
+  color: var(--rose-extra-dark);
+}
+
+.price {
+  color: var(--red);
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+}
